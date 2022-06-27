@@ -45,14 +45,17 @@ Since both our variables are categorical. We will use a bar plot with a ch-squar
 Cat. Which is why we're using a different method. 
 
 
+### Graphical Descriptive Results
+
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
-`
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
-  
+```
 
-
-
+  Based off of the first bar chart, men seem to be more susceptible to Coronacirus than women. Men have a higher death rate compared to women. Women have a higher alive rate compared to men.  Approximately, the frequency for men living is 750 lower than that of women. Based off of the second bar chart, women have a 55% survival rate while men have a 40% survival rate. Women have a higher survival rate by 15%. The death percentage for men is higher, as expected. Men death rate is at 60% while women death rate is at 45%. Men death rate is higher by 15%. 
 
 
   
