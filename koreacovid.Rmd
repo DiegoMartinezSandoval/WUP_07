@@ -38,6 +38,13 @@ with(kRdata, table(Sex, result))
 
 ```
 
+# Methods 
+
+
+Since both our variables are categorical. We will use a bar plot with a ch-squared test and a fisher exact test. We can't use a T.test or an AOV because it's Cat vs 
+Cat. Which is why we're using a different method. 
+
+
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
 `
