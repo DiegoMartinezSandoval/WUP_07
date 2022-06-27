@@ -81,3 +81,6 @@ The null hypothesis has to be rejected because the p-value is .001. The p-value 
 
 ## Conclusions
 
+The original question was if death was independent from sex. We can conclude that death isn't independent from sex. Dying is dependent on the sex. Our two bar charts, numerical data, inferential data, chi squared test, and the fisher's exact test all provide evidence towards my claim. Both p-values from the chi-squared test and the fisher's exact test are lower than .05. Thus, we have enough proof to reject the null hypotheses. Men have a higher likelihood of dying from Coronavirus compared to women. Women have a higher survival rate for Coronavirus compared to men. Those are my closing statements, thank you. 
+
+
