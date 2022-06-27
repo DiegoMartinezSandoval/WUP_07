@@ -59,7 +59,14 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 
 
   
-## Numerical results
+## Numerical  Descriptive results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+The data shows that 36 women  out of 100 people died out in the dead group. While 64 men out of 100 people died out in the dead group. More men are dying than women. Off of the percentages, women have a 98.7% survival rate while men ave a 97% survival rate. Women have a higher survival rate by 1.7%. Men have a higher death rate by 1.6% because 3 - 1.4 = 1.6. 
 
 
 ## Inferential results 
