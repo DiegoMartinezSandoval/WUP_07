@@ -71,8 +71,13 @@ The data shows that 36 women  out of 100 people died out in the dead group. Whil
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+The null hypothesis has to be rejected because the p-value is .001. The p-value is not greater than .05 so the likelihood of getting these exact results is way too low. The fisher exact table is also significant in showing that we reject the null hypothesis because the p-value is .0009. Both of our p-values for the chi-square test and the fisher exact test are lower than .05, so we reject the null hypotheses.  
 
 ## Conclusions
 
