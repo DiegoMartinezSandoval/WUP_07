@@ -77,7 +77,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The null hypothesis has to be rejected because the p-value is .001. The p-value is not greater than .05 so the likelihood of getting these exact results is way too low. The fisher exact table is also significant in showing that we reject the null hypothesis because the p-value is .0009. Both of our p-values for the chi-square test and the fisher exact test are lower than .05, so we reject the null hypotheses.  
+The null hypothesis has to be rejected because the p-value is .001. The p-value is not greater than .05 so the likelihood of getting these exact results is way too low. The fisher exact table is also significant in showing that we reject the null hypothesis because the p-value is .0009. Both of our p-values for the chi-square test and the fisher exact test are lower than .05, so we reject the null hypotheses. The sample estimate states that our odds ratio is 2.3. An odds ratio of 10 suggests a stronger association. Since our odds ratio is below 10, there is not a strong association according to the fisher exact test. The chi square statistic is 10 with a degree of freedom of 1. We support the alternative hypothesis since in the fisher exact test, it states that the true odds is not equal to 1. According to the fisher exact test, this is true. The odds ratio is instead 2.3. 
 
 ## Conclusions
 
